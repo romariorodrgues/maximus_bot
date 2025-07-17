@@ -1,0 +1,117 @@
+# Arquivos do Sistema Operacional
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Arquivos do Visual Studio Code
+.vscode/
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Arquivos importantes do projeto (sempre incluir)
+!.github/copilot-instructions.md
+!README.md
+!platformio.ini
+
+# Arquivos do PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+.clang_complete
+.gcc-flags.json
+.pio.ini
+
+# Arquivos de compilação do Arduino
+*.hex
+*.elf
+*.bin
+*.map
+*.lst
+*.sym
+*.lss
+*.eep
+*.srec
+build/
+*.autosave
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.#*
+
+# Logs
+*.log
+logs/
+
+# Arquivos de backup
+*.bak
+*.backup
+*.old
+
+# Documentação gerada
+docs/html/
+docs/latex/
+doxygen_warnings.txt
+
+# Arquivos de configuração local
+config.local.h
+secrets.h
+credentials.h
+
+# Arquivos de IDE
+*.workspace
+*.project
+*.cproject
+.metadata/
+
+# Arquivos Python (caso use scripts auxiliares)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.env
+
+# Node.js (caso use ferramentas web)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos de teste
+test_results/
+*.test
+
+# Arquivos de simulação
+simulation/
+*.sim
+
+# Diretório de downloads/uploads
+downloads/
+uploads/
+
+# Arquivos específicos do projeto
+pcb/gerber/
+pcb/outputs/
+3d_models/stl/
+datasheets/pdf/
+
+# Arquivos de calibração (podem conter dados sensíveis)
+calibration_data.txt
+sensor_offsets.h
+
+# Arquivos de configuração de rede
+wifi_credentials.h
+bluetooth_config.h
