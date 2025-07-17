@@ -15,7 +15,6 @@ Thumbs.db
 *.code-workspace
 
 # Arquivos importantes do projeto (sempre incluir)
-!.github/copilot-instructions.md
 !README.md
 !platformio.ini
 
